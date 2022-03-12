@@ -2,7 +2,7 @@
 
 // Brute Force 
 
-let nums = [2,7,,11,15]
+let nums = [2,7,11,15]
 
 let target = 9
 
@@ -15,16 +15,9 @@ let twoSum = function(nums,target) {
             }
         }
     }
-
 } 
 
 console.log(twoSum(nums,target)); 
-
-
-
-
-
-
 
 // Optimized Approach 
 // Hashmap 
@@ -43,10 +36,78 @@ function twoSum(nums,target){
         let value = nums[i];
         let complement_pair = target - value; 
         if(map[complement_pair] !== undefined){
-            return [map[complement_pair,i ]]; 
+            return map[complement_pair,i ]; 
         }else {
             map[value] = i; 
         }
     }}
     console.log(twoSum(nums,target))
     
+
+
+let nums = [2,7,11,15]
+
+let target = 9; 
+
+function twoSum(nums,target){
+    for(let i = 0; i < nums.length; i++){
+        for(let j = i + 1; j < nums.length; j++){
+            if(nums[i] + nums[j] == target){
+                return [i,j]
+            }
+        }
+
+    }
+}
+
+console.log(twoSum(nums,target)); 
+
+
+
+let nums = [2,7,11,15]
+
+let target = 9;
+
+i = 0; 
+
+j = 0
+
+// time complexity of O(N^2)
+
+// space complexity of O(1)
+
+
+function twoSum(nums, target){
+
+for(let i = 0; i < nums.length; i++){
+    for(let j = i + 1; j < nums.length; j++){
+        if(nums[i] + nums[j] == target){
+            return [i,j]
+        }
+    }
+}
+
+}
+
+console.log(twoSum(nums,target)); 
+
+
+
+
+let nums = [2,7,11,15]
+
+let target = 9;
+
+
+function twoSum(nums,target){
+    for(let i = 0; i < nums.length; i++){
+        for(let j = i + 1; j < nums.length; j++){
+            if(nums[i] + nums[j] == target){
+                return [i,j] 
+            }
+        }
+    }
+
+}
+
+console.log(twoSum(nums,target)); 

@@ -15,9 +15,9 @@ function singleNumber(nums){
             return key; 
         }
     }
-}
-console.log(singleNumber(nums)); 
+}; 
 
+console.log(singleNumber(nums)); 
 
 
 
