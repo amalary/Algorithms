@@ -149,7 +149,8 @@ function twoSum(nums,target){
     let map = {};
     for(let i = 0; i < nums.length; i++){
         let value = nums[i];
-        let complementPair = target - value; 
+        let complementPair = target - value; y
+        
         if(map[complementPair] !== undefined){
             return [map[complementPair],i];
         }
@@ -164,4 +165,35 @@ console.log(twoSum(nums,target));
 
 let map = {0:1, 1:5, 2: 9}
 
-console.log(map[3])
+console.log(map[1] )
+
+
+// Optimized 
+
+let nums = [1,5,9]; 
+
+let target = 10;
+
+// Hash map = {1:0, 5:1, 2: 9}
+
+function twoSum(nums,target){
+
+    let map = {};
+
+    for(let i = 0; i < nums.length; i++){
+        let value = nums[i];
+        let complementPair = target - value;
+        if(map[complementPair] !== undefined){
+            return [map[complementPair],i];
+        }
+        else{
+            map[value] = i;
+        }
+
+    }
+
+}; 
+
+
+
+console.log(twoSum(nums,target)); 
