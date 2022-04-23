@@ -149,8 +149,7 @@ function twoSum(nums,target){
     let map = {};
     for(let i = 0; i < nums.length; i++){
         let value = nums[i];
-        let complementPair = target - value; y
-        
+        let complementPair = target - value; 
         if(map[complementPair] !== undefined){
             return [map[complementPair],i];
         }
@@ -192,8 +191,203 @@ function twoSum(nums,target){
 
     }
 
-}; 
+};
 
 
+
+
+let nums = [2,7,11,15]
+
+let target = 9; 
+
+function twoSum(nums,target){
+    
+    for(let i = 0; i <nums.length; i++){
+        for(let j = i +1; j < nums.length; j++){
+            if(nums[i] + nums[j] == target){
+                return [i,j]
+            }
+        }
+    }
+}
+
+console.log(twoSum(nums,target)); 
+// hash map {}
+
+// complimentary pair 
+
+
+let nums = [1,5,9]; 
+
+let target = 10;
+
+function twoSum(nums,target){
+
+    let map = {}; 
+
+    for(let i = 0; i< nums.length; i++){
+        let value = nums[i];
+        let complimentaryPair = target - value; 
+        if(map[complimentaryPair] !== undefined ){
+            return [map[complimentaryPair],i]
+        }
+        else{
+            map[value] = i; 
+        }
+    }
+}
+
+console.log(twoSum(nums,target)); 
+
+// Brute Force approach 
+
+let nums = [2,7,11,15]
+
+let target = 9;
+
+function twoSum(nums,target){
+
+    for(let i = 0; i < nums.length; i++){
+        for(let j = i + 1; j < nums.length; j++){
+            if(nums[i] + nums[j] == target ){
+                return [i,j]
+            }
+        }
+    }
+}
+
+console.log(twoSum(nums,target)); 
+
+
+// Optimized 
+
+let nums = [1,5,9]; 
+
+let target = 10;
+
+function twoSum(nums,target){
+
+    let map = {}; 
+
+    for(let i = 0; i < nums.length; i++){
+        let value = nums[i]; 
+        let complimentaryPair = target - value; 
+
+        if(map[complimentaryPair] !== undefined){
+
+            return [map[complimentaryPair],i]
+        }
+        else{
+            
+            map[value] = i; 
+
+        }
+    }
+}
+
+console.log(twoSum(nums,target)); 
+
+
+let nums = [2,7,11,15]
+
+let target = 9; 
+
+function twoSum(nums,target){
+    for (let i = 0; i < nums.length; i++){
+        for(let j = i + 1; j< nums.length; j++){
+            if(nums[i] + nums[j] == target){
+                return [i,j]
+            }
+        }
+    }
+}
+
+console.log(twoSum(nums,target)); 
+
+
+
+let nums = [2,7,11,15]
+
+let target = 9; 
+
+function twoSum(nums,target){
+
+    for(let i = 0; i < nums.length; i++){
+        for(let j = i + 1; j < nums.length; j++){
+        if(nums[i] + nums[j] == target){
+            return [i,j]; 
+        }
+    }
+    }
+
+}
+console.log(twoSum(nums,target)); 
+
+let nums = [2,7,11,15]
+
+let target = 9
+
+function twoSum(nums, target){
+    for(let i = 0; i < nums.length; i++){
+        for(let j = i + 1; j < nums.length; j++){
+            if(nums[i] + nums[j] == target){
+                return [i,j]
+            }
+        }
+    }
+};
+
+console.log(twoSum(nums,target)); 
+
+
+let nums = [1,5,9]; 
+
+let target = 10;
+
+function twoSum(nums,target){ 
+
+    let map = {}; 
+
+    for(let i = 0; i < nums.length; i++){
+
+        let value = nums[i]; 
+        let complimentaryPair = target - value;
+
+        if(map[complimentaryPair] !== undefined){
+
+            return [map[complimentaryPair],i]
+        }
+        else{
+            map[value] = i
+        }
+        
+    }
+
+
+};
+
+console.log(twoSum(nums,target)); 
+
+let nums = [1,5,9]; 
+
+let target = 10;
+
+function twoSum(nums,target){
+
+    let map = {}; 
+
+    for(let i = 0; i < nums.length; i++){
+
+        let value = nums[i]; 
+        let complimentaryPair = target - value; 
+
+        if(map[complimentaryPair] !== undefined){
+            return [map[complimentaryPair], i]
+        }
+        else{
+            map[value] = i;
+        }
+    }
+}
 
 console.log(twoSum(nums,target)); 
