@@ -101,7 +101,25 @@ function containsDuplicate(nums){
 
 }
 
-console.log(containsDuplicate(nums)); 
+console.log(containsDuplicate(nums));
+
+let nums = [1,2,3,1];
+
+function containsDuplicate(nums){
+    let memory = {}; 
+
+    for(let i = 0; i < nums.length; i++){
+        if(memory[nums[i]] == undefined){
+            memory[nums[i]] = nums[i]
+        }
+        else{
+            return true
+        }
+    }
+    return false 
+}
+
+console.log(containsDuplicate(nums))
 
 
 
