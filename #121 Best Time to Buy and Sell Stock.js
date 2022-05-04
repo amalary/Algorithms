@@ -269,7 +269,126 @@ function maxProfit(prices){
 console.log(maxProfit(prices)); 
 
 
+// 1 
 
+let prices = [7,1,5,3,6,4]; 
+
+function maxProfit(prices){
+    let buy = prices[0];
+    prices[0] = 0; 
+    profit = 0; 
+
+    for(let i = 1; i < prices.length; i++) {
+        if(buy > prices[i]) {
+            buy = prices[i]
+            prices[i] = 0
+        }
+        else{
+            profit = Math.max(prices[i] - buy,profit)
+        }
+    }
+    return profit
+}
+
+console.log(maxProfit(prices)); 
+
+// 2 
+
+
+let prices = [7,1,5,3,6,4]; 
+
+function maxProfit(prices) {
+    let buy = prices[0]; 
+
+    prices[0] = 0; 
+
+    profit = 0; 
+
+    for(let i = 1; i < prices.length; i++){
+        if(buy > prices[i]){
+            buy = prices[i];
+            prices[i] = 0; 
+
+        }
+        else{
+            profit = Math.max(prices[i] - buy, profit)
+        }
+    }
+    return profit
+}
+
+console.log(maxProfit(prices)); 
+
+// 3 
+
+
+let prices = [7,1,5,3,6,4]; 
+
+function maxProfit(prices){
+
+    let buy = prices[0]; 
+    prices[0] = 0;
+    profit = 0; 
+
+    for(let i = 1; i < prices.length; i++) {
+        if(buy > prices[i]){
+            buy = prices[i]; 
+            prices[i] = 0; 
+        }
+        else{
+            profit = Math.max(prices[i] - buy,profit)
+        }
+    }
+    return profit
+}
+
+console.log(maxProfit(prices)); 
+
+// 4 
+
+
+let prices = [7,1,5,3,6,4]; 
+
+function maxProfit(prices) {
+    let buy = prices[0]; 
+    prices[0] = 0; 
+    profit = 0; 
+
+    for(let i = 1; i < prices.length; i++){
+        if(buy > prices[i]){
+            buy = prices[i];
+            prices[i] = 0; 
+        }
+        else{
+            profit = Math.max(prices[i] - buy,profit)
+        }
+    }
+    return profit
+}
+
+console.log(maxProfit(prices)); 
+
+
+let prices = [7,1,5,3,6,4]; 
+
+function maxProfit(prices) {
+    let buy = prices[0]; 
+    prices[0] = 0; 
+    profit = 0; 
+    
+    for(let i = 1; i < prices.length; i++){
+        if(buy > prices[i]) {
+            buy = prices[i]; 
+            prices[i] = 0; 
+        }
+        else{
+            profit = Math.max(prices[i] - buy, profit)
+        }
+    }
+    return profit
+}
+
+console.log(maxProfit(prices))
 
 
 
