@@ -599,4 +599,10 @@ function containsDuplicate(nums) {
     return false; 
 }
 
-console.log(containsDuplicate(nums))
+console.log(containsDuplicate(nums)); 
+
+
+let nums = [1,2,3,1];
+
+
+console.log(nums[nums.length -1])
