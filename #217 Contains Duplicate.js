@@ -136,6 +136,7 @@ console.log(containsDuplicate(nums));
 
 // sort input array  (O NlogN)
 
+
 let nums = [1,2,3,1];
 
 function containsDuplicate(nums){ 

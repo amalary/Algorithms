@@ -5,3 +5,4 @@
 // You must write an algorithm that runs in O(n) time and without using the division operation. 
 
 
+let nums = [1,2,5,2,3,5];
