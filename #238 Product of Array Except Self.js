@@ -17,11 +17,10 @@ function productExceptSelf(nums) {
     const right = new Array(nums.length).fill(0);
 
     right[right.length - 1] = 1; 
-
+    
     for(let i = 1; i < nums.length; i++) {
         left[i] = nums[i - 1] * left[i - 1]
     }
-
     for(let i = right.length-2; i >= 0; i--){
 
         right[i] = nums[i + 1] * right[i + 1]
@@ -32,5 +31,8 @@ function productExceptSelf(nums) {
     }
     return nums; 
 }
-
 console.log(productExceptSelf(nums))
+
+
+
+
