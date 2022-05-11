@@ -133,7 +133,7 @@ function isPalindrome(nums) {
     }
 
     let reverse = 0; 
-
+                                    
     for(let i = nums; i >=1; i = Math.floor(i/10)) {
 
         reverse = reverse * 10 + i%10
@@ -174,10 +174,20 @@ function isPalindrome(nums) {
     let reverse = 0; 
 
     for( i = nums; i >= 1; i = Math.floor(i/10)){
+        console.log( Math.floor(i/10))
         reverse = reverse * 10 + i%10;
     }
     return reverse == nums
 }
 
-console.log(isPalindrome(111)); 
+console.log(isPalindrome(1221)); 
+
+console.log(Math.floor(121/10)) 
+
+console.log(12%10)
+
+
+
+
+
 
