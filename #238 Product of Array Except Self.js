@@ -329,7 +329,10 @@ function productExceptSelf(nums){
     return nums
 }
 
-console.log(productExceptSelf(nums))
+console.log(productExceptSelf(nums)); 
+
+
+
 
 
 
