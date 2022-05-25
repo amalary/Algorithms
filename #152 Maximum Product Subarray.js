@@ -281,8 +281,7 @@ function maxProduct(nums) {
     return max
 }
 
-console.log(maxProduct(nums))
-
+console.log(maxProduct(nums));
 
 
 
