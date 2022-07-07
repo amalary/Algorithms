@@ -19,8 +19,7 @@ function maxSubarray(nums) {
 console.log(maxSubarray(nums)); 
 
 //  1
-
-let nums = [-2,1,-3,4,-1,2,1,-5,4]
+ nums = [-2,1,-3,4,-1,2,1,-5,4]
 
 function maxSubarray(nums) {
 
@@ -38,7 +37,7 @@ console.log(maxSubarray(nums));
 
 //  2
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) { 
     let solution = nums[0];
@@ -54,7 +53,7 @@ console.log(maxSubarray(nums));
 
 //  3 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) { 
     let solution = nums[0]; 
@@ -71,7 +70,7 @@ console.log(maxSubarray(nums));
 
 // 4 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) { 
     let solution = nums[0]; 
@@ -88,7 +87,7 @@ console.log(maxSubarray(nums));
 
 //  5
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) {
     let solution = nums[0]; 
@@ -104,7 +103,7 @@ console.log(maxSubarray(nums));
 
 //  6 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) {
     let solution = nums[0]; 
@@ -121,7 +120,7 @@ console.log(maxSubarray(nums));
 
 //  7 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums){
 
@@ -138,7 +137,7 @@ console.log(maxSubarray(nums));
 
 // 8 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) {
     let solution = nums[0]; 
@@ -154,7 +153,7 @@ console.log(maxSubarray(nums))
 
 //  9 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+ nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) {
     let solution = nums[0]; 
@@ -170,7 +169,7 @@ console.log(maxSubarray(nums));
 
 // 10 
 
-let nums = [-2,1,-3,4,-1,2,1,-5,4]; 
+nums = [-2,1,-3,4,-1,2,1,-5,4]; 
 
 function maxSubarray(nums) { 
 

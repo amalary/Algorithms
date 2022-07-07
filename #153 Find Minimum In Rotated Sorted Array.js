@@ -20,7 +20,7 @@ function findMin(nums){
 
 // Optimized solution 
 
-let nums = [0,1,2,4,5,6,7]
+let nums = [4,5,6,7,0,1,2]
 
 function findMin(nums){
     let left = 0; 
@@ -34,8 +34,12 @@ function findMin(nums){
             right = midPoint
         }
     }
-    return nums[left]
+    return nums[left];
 };
+
+console.log(findMin(nums))
+
+
 
 
 

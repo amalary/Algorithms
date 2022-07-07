@@ -1,7 +1,5 @@
 // #121 Best Time to Buy and Sell Stock 
 
-const { moveMessagePortToContext } = require("worker_threads");
-
 /**
  * You are given an array prices where prices[i] is the price of a given stock on the ith day.
  * You want to maximize your profit by choosing a single day to buy one stock and choosing 
@@ -54,7 +52,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
 
@@ -78,7 +76,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
 
@@ -123,7 +121,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
 
@@ -148,7 +146,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
 
@@ -173,7 +171,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
     let buy = prices[0];
@@ -195,7 +193,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
 
@@ -219,7 +217,7 @@ function maxProfit(prices){
 
 console.log(maxProfit(prices)); 
 
-let prices = [7,1,5,3,6,4]; 
+let prices = [7,1,5,3,6; 
 
 function maxProfit(prices){
     let buy = prices[0]; 
@@ -246,7 +244,7 @@ let nums = [4,1,2,35,5,23,5,3,3,45,,6,7,8]
 
 console.log(nums.sort())
 
-let prices = [7,1,5,3,6,4]; 
+prices = [7,1,56,4]; 
 
 function maxProfit(prices){
 
@@ -271,7 +269,7 @@ console.log(maxProfit(prices));
 
 // 1 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
     let buy = prices[0];
@@ -295,7 +293,7 @@ console.log(maxProfit(prices));
 // 2 
 
 
-let prices = [7,1,5,3,6,4]; 
+prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices) {
     let buy = prices[0]; 
@@ -322,7 +320,7 @@ console.log(maxProfit(prices));
 // 3 
 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices){
 
@@ -347,7 +345,7 @@ console.log(maxProfit(prices));
 // 4 
 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices) {
     let buy = prices[0]; 
@@ -369,7 +367,7 @@ function maxProfit(prices) {
 console.log(maxProfit(prices)); 
 
 
-let prices = [7,1,5,3,6,4]; 
+ prices = [7,1,5,3,6,4]; 
 
 function maxProfit(prices) {
     let buy = prices[0]; 

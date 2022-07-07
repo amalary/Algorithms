@@ -233,7 +233,7 @@ console.log(productExceptSelf(nums))
 
 // 8
 
-let nums = [1,2,3,4];
+ nums = [1,2,3,4];
 
 
 function productExceptSelf(nums) {
@@ -268,7 +268,7 @@ console.log(productExceptSelf(nums));
 
 // 9 
 
-let nums = [1,2,3,4]; 
+ nums = [1,2,3,4]; 
 
 function productExceptSelf(nums){
 
@@ -300,7 +300,7 @@ function productExceptSelf(nums){
 
 console.log(productExceptSelf(nums));
 
-let nums = [1,2,3,4]; 
+ nums = [1,2,3,4]; 
 
 function productExceptSelf(nums){
 
